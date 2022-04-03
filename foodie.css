@@ -1,0 +1,129 @@
+body {
+  background-color: #faebd7;
+  margin: 0;
+}
+.menu {
+  background-color: aliceblue;
+  height: 80px;
+  margin-bottom: 0;
+  margin-left: 100px;
+}
+.sub-menu {
+  list-style: none;
+  float: right;
+  padding: 15px;
+}
+.sub-menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.sub-menu a:hover {
+  background: yellowgreen;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: goldenrod;
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+.staff a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+.staff a:hover {
+  background: rgb(165, 161, 161);
+  color: bisque;
+}
+.header {
+  margin-left: 100px;
+  background: lightblue;
+  height: 150px;
+  text-align: center;
+  font-size: larger;
+  text-transform: uppercase;
+}
+.images{
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  column-gap: 30%;
+  margin-left: 100px;
+}
+.pics{
+  margin: 5px;
+}
+.pics img{
+  height: 250px;
+  width: 400px;
+  padding: 5px;
+
+}
+footer{
+  margin-left: 100px;
+  background: rgb(223, 164, 183);
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(1, 94, 63);
+}
+@media screen and (max-width:912px){
+  .menu {
+    background-color: aliceblue;
+    height: 40px;
+    margin-bottom: 0;
+    margin-left: 55px;
+  }
+  .sub-menu {
+    list-style: none;
+    float: left;
+    padding: 5px;
+  }
+  .sub-menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  .header{
+    height: 50px;
+    font-size: 10px;
+    margin-left: 55px;
+    text-align: left;
+
+  }
+  .images{
+    display: grid;
+    grid-template-columns: 40px 40px;
+    column-gap: 30%;
+    margin-left: 55px;
+  }
+  .pics img{
+    height: 150px;
+    width: 120px;
+    padding: 10px;
+  
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: goldenrod;
+    width: 55px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    font-size: 15px;
+  }
+  footer{
+    margin-left: 55px;
+    background: rgb(223, 164, 183);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(1, 94, 63);
+  }
+}

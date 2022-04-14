@@ -49,18 +49,20 @@ nav ul {
   text-transform: uppercase;
 }
 .images{
-  display: grid;
-  grid-template-columns: 30px 30px 30px;
-  column-gap: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
   margin-left: 100px;
 }
 .pics{
   margin: 5px;
 }
+
 .pics img{
   height: 250px;
-  width: 400px;
-  padding: 5px;
+  width: 390px;
+  padding: 8px;
 
 }
 footer{
@@ -68,7 +70,7 @@ footer{
   background: rgb(223, 164, 183);
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 18px;
   color: rgb(1, 94, 63);
 }
 @media screen and (max-width:912px){
@@ -96,15 +98,19 @@ footer{
 
   }
   .images{
-    display: grid;
-    grid-template-columns: 40px 40px;
-    column-gap: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
     margin-left: 55px;
+  }
+  .pics{
+    margin: 5px;
   }
   .pics img{
     height: 150px;
-    width: 120px;
-    padding: 10px;
+    width: 190px;
+    padding: 5px;
   
   }
   nav ul {
@@ -123,7 +129,7 @@ footer{
     background: rgb(223, 164, 183);
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 10px;
     color: rgb(1, 94, 63);
   }
 }

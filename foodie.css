@@ -43,26 +43,24 @@ nav ul {
 .header {
   margin-left: 100px;
   background: lightblue;
-  min-height: 150px;
+  height: 150px;
   text-align: center;
   font-size: larger;
   text-transform: uppercase;
 }
 .images{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-between;
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  column-gap: 30%;
   margin-left: 100px;
 }
 .pics{
   margin: 5px;
 }
-
 .pics img{
   height: 250px;
-  width: 390px;
-  padding: 8px;
+  width: 400px;
+  padding: 5px;
 
 }
 footer{
@@ -70,10 +68,10 @@ footer{
   background: rgb(223, 164, 183);
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   color: rgb(1, 94, 63);
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:912px){
   .menu {
     background-color: aliceblue;
     height: 40px;
@@ -98,19 +96,15 @@ footer{
 
   }
   .images{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: space-between;
+    display: grid;
+    grid-template-columns: 40px 40px;
+    column-gap: 30%;
     margin-left: 55px;
   }
-  .pics{
-    margin: 5px;
-  }
   .pics img{
-    height: 50px;
-    width: 20px;
-    padding: 5px;
+    height: 150px;
+    width: 120px;
+    padding: 10px;
   
   }
   nav ul {
@@ -122,14 +116,14 @@ footer{
     height: 100%;
     position: fixed;
     overflow: auto;
-    font-size: 45px;
+    font-size: 15px;
   }
   footer{
     margin-left: 55px;
     background: rgb(223, 164, 183);
     text-align: center;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 30px;
     color: rgb(1, 94, 63);
   }
 }

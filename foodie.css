@@ -73,7 +73,7 @@ footer{
   font-size: 18px;
   color: rgb(1, 94, 63);
 }
-@media screen and (max-width:912px){
+@media screen and (max-width:400px){
   .menu {
     background-color: aliceblue;
     height: 40px;

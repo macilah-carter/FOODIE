@@ -43,7 +43,7 @@ nav ul {
 .header {
   margin-left: 100px;
   background: lightblue;
-  height: 150px;
+  min-height: 150px;
   text-align: center;
   font-size: larger;
   text-transform: uppercase;
@@ -108,8 +108,8 @@ footer{
     margin: 5px;
   }
   .pics img{
-    height: 150px;
-    width: 190px;
+    height: 50px;
+    width: 20px;
     padding: 5px;
   
   }
@@ -122,7 +122,7 @@ footer{
     height: 100%;
     position: fixed;
     overflow: auto;
-    font-size: 15px;
+    font-size: 45px;
   }
   footer{
     margin-left: 55px;

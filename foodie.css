@@ -54,19 +54,88 @@ nav ul {
   text-transform: uppercase;
   font-family: lucida sans;
 }
+.slide{
+  margin-left: 100px;
+  overflow: hidden;
+}
+.slide figure{
+  position: relative;
+  left: 0;
+  margin: 0;
+  width: 500%;
+  animation: 20s slidey infinite;
+}
+.slide figure img{
+   width: 20%;
+   height: 300px;
+    float: left;
+}
+@keyframes slidey{
+  0% {
+      left: 0%;
+  }
+  10%{
+      left: 0%;
+  }
+  12%{
+      left: -100%;
+  }
+  22%{
+      left: -100%;
+  }
+  24%{
+      left: -200%;
+  }
+  34%{
+      left: -200%;
+  }
+  36%{
+      left: -300%;
+  }
+  46%{
+      left: -300%;
+  }
+  48%{
+      left: -400%;
+  }
+  58%{
+      left: -400%;
+  }
+  60%{
+      left: -300%;
+  }
+  70%{
+      left: -300%;
+  }
+  72%{
+      left: -200%;
+  }
+  82%{
+      left: -200%;
+  }
+  84%{
+      left: -100%;
+  }
+  94%{
+      left: -100%;
+  }
+  96%{
+      left: 0%;
+  }
+}
 .cont{
   margin-left: 100px;
   margin-top: 10px;
-  padding: 5px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 2px solid black;
   background: rgb(121, 114, 99);
 
 
 }
-.cont .one{
+.cont .one, .tw ,.thr{
   background: #faebd7;
+  padding: 5px;
 }
 footer{
   margin-left: 100px;
@@ -136,5 +205,21 @@ footer{
     display: flex;
     flex-direction: column;
     font-size: 7px;
+  }
+  .slide{
+    margin-left: 55px;
+    overflow: hidden;
+  }
+  .slide figure{
+    position: relative;
+    left: 0;
+    margin: 0;
+    width: 500%;
+    animation: 20s slidey infinite;
+  }
+  .slide figure img{
+     width: 20%;
+     height: 100px;
+      float: left;
   }
 }

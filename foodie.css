@@ -4,7 +4,7 @@ body {
 }
 .menu {
   background-color: aliceblue;
-  height: 80px;
+  height: 40px;
   margin-bottom: 0;
   margin-left: 100px;
 }
@@ -16,6 +16,10 @@ body {
 .sub-menu a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  width: 8px;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 .sub-menu a:hover {
   background: yellowgreen;
@@ -30,6 +34,7 @@ nav ul {
   height: 100%;
   position: fixed;
   overflow: auto;
+  font-size: 10px;
 }
 .staff a {
   text-decoration: none;
@@ -43,38 +48,38 @@ nav ul {
 .header {
   margin-left: 100px;
   background: lightblue;
-  height: 150px;
+  height: min(500px 70%);
   text-align: center;
-  font-size: larger;
+  font-size: 15px;
   text-transform: uppercase;
+  font-family: lucida sans;
 }
-.images{
-  display: grid;
-  grid-template-columns: 30px 30px 30px;
-  column-gap: 30%;
+.cont{
   margin-left: 100px;
-}
-.pics{
-  margin: 5px;
-}
-.pics img{
-  height: 250px;
-  width: 400px;
+  margin-top: 10px;
   padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  background: rgb(121, 114, 99);
 
+
+}
+.cont .one{
+  background: #faebd7;
 }
 footer{
   margin-left: 100px;
   background: rgb(223, 164, 183);
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 15px;
   color: rgb(1, 94, 63);
 }
-@media screen and (max-width:912px){
+@media screen and (max-width:400px){
   .menu {
     background-color: aliceblue;
-    height: 40px;
+    max-height: 40px;
     margin-bottom: 0;
     margin-left: 55px;
   }
@@ -86,11 +91,11 @@ footer{
   .sub-menu a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 10px;
+    
   }
   .header{
-    height: 50px;
-    font-size: 10px;
+    font-size: 8px;
     margin-left: 55px;
     text-align: left;
 
@@ -116,14 +121,20 @@ footer{
     height: 100%;
     position: fixed;
     overflow: auto;
-    font-size: 15px;
+    font-size: 10px;
   }
   footer{
     margin-left: 55px;
     background: rgb(223, 164, 183);
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 5px;
     color: rgb(1, 94, 63);
+  }
+  .cont{
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    font-size: 7px;
   }
 }

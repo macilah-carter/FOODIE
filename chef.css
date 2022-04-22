@@ -33,10 +33,10 @@ body{
 .body{
     display: flex;
     width: 90%;
-    max-height: 300px;
     flex: 1;
     gap: 2rem;
     padding: 4px;
+    flex-wrap: wrap;
     
 }
 .body img{
@@ -45,31 +45,63 @@ body{
    padding: 5px;
    border-radius: 10px;
 }
-.body .text p{
+.body p{
     display: flex;
     flex: 1;
     background: purple;
     border-radius: 6px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 25px;
     color: aliceblue;
+}
+.chefs{
+    display: flex;
+    gap: 0.5rem;
+    flex: 1;
+    
+}
+.sub-chefs{
+    
 }
 @media screen and (max-width:400px) {
     .body img{
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 200px;
      }
      .body p{
-         font-size: 10px;
-         background: green;
+         font-size: 12px;
+         background: rgb(169, 177, 169);
      }
      .body{
         display: flex;
-        flex-direction: column;
-        flex: 1 1 0;
+        flex: 1;
         padding: 4px;
         gap: 0.5rem;
-        height: 300px;
         flex-wrap: wrap;
+    }
+    .chefs{
+        display: flex;
+        gap: 0.5rem;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .sub-chefs{
+        display: flex;
+        flex: 1;
+        gap: 0.5rem;
+    }
+    .sub-chefs img{
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+    #pic-no{
+        order: 1;
+    }
+    #pic-no3{
+        order: 1;
+    }
+    #pic-no5{
+        order: 2;
     }
 }

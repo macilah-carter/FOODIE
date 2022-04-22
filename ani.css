@@ -65,3 +65,11 @@
         left: 0%;
     }
 }
+.es{
+    display: flex;
+}
+ .fa-car{
+     width: 20px;
+     height: 50px;
+     border-color: reds;
+ }

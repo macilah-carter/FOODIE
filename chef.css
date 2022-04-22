@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    background: lawngreen
+    
+}
+.navigation ul{
+    display: flex;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.navigation ul a {
+    text-decoration: none;
+    padding: 15px;  
+}
+.navigation ul a:hover{
+    background: white; 
+}
+.body{
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    padding: 4px;
+}
+.body img{
+   width: 500px;
+   height: 500px;
+}
+@media screen and (max-width:400px) {
+    .body img{
+        width: 50px;
+        height: 60px;
+     }
+     .body p{
+         font-size: 5px;
+     }
+     .body{
+        display: flex;
+        flex: 1 1 0;
+        padding: 4px;
+    }
+}

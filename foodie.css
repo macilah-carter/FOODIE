@@ -128,7 +128,6 @@ nav ul {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  border: 2px solid black;
   background: rgb(219, 216, 209);
 
 
@@ -136,6 +135,7 @@ nav ul {
 .cont .one, .tw ,.thr{
   background: #faebd7;
   padding: 5px;
+
 }
 footer{
   margin-left: 100px;
@@ -207,7 +207,9 @@ form{
     margin-left: 55px;
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+  }
+  .cont .one, .tw ,.thr{
+    font-size: 10px;
   }
   .slide{
     margin-left: 60px;

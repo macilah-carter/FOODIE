@@ -6,7 +6,6 @@ body {
   background-color: aliceblue;
   height: 60px;
   margin-bottom: 0;
-  margin-left: 100px;
 }
 .sub-menu {
   list-style: none;
@@ -25,7 +24,6 @@ body {
   background: yellowgreen;
 }
 .header {
-  margin-left: 100px;
   background: lightblue;
   height: min(500px 70%);
   text-align: center;
@@ -34,7 +32,6 @@ body {
   font-family: lucida sans;
 }
 .slide{
-  margin-left: 100px;
   overflow: hidden;
 }
 .slide figure{
@@ -103,7 +100,6 @@ body {
   }
 }
 .cont{
-  margin-left: 100px;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
@@ -117,15 +113,11 @@ body {
 
 }
 footer{
-  margin-left: 100px;
   background: rgb(223, 164, 183);
   text-align: center;
   font-weight: bold;
   font-size: 15px;
   color: rgb(1, 94, 63);
-}
-form{
-  margin-left: 100px;
 }
 @media screen and (max-width:550px){
   .menu {

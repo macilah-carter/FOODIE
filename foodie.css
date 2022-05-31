@@ -24,18 +24,6 @@ body {
 .sub-menu a:hover {
   background: yellowgreen;
 }
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background: goldenrod;
-  width: 100px;
-  height: 100%;
-  position: fixed;
-  overflow: auto;
-  font-size: 15px;
-}
 .staff a {
   text-decoration: none;
   display: block;
@@ -183,17 +171,6 @@ form{
     width: 120px;
     padding: 10px;
   
-  }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background: goldenrod;
-    width: 58px;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    font-size: 15px;
   }
   footer{
     margin-left: 58px;

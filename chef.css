@@ -120,5 +120,8 @@ body{
     .sub-chefs{
         flex: 1 1 100%;
     }
+    .navigation ul a {
+    display: block;  
+}
     
 }

@@ -22,14 +22,11 @@ a{
     font-size: 20px;
 }
 a:hover{
-    height: 1em;
-    width: 4em;
     border: 1px solid rgb(137, 141, 137);
-    padding: 3px 3px;
     background: rgb(158, 153, 154);
     border-radius: 1em;
+    padding: 2px 3px;
     color: black;
-
 }
 .menu li a{
     display: block;
